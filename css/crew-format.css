@@ -1,0 +1,68 @@
+body{
+    background-image: url(/assets/crew/background-crew-desktop.jpg);
+    color: white;
+    margin: 0;
+}
+.head{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    margin-left: 173px;
+}
+.left-container{
+    width: 50%;
+    margin: 20px 0 0 173px;
+    position: relative;
+    display: inline-block;
+}
+.pic{
+    margin: 0 100px 0 0;
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+}
+.carrer{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    opacity: 50.42%;
+    margin: 0 0 14px 0;
+}
+.crew-name{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    margin: 0 0 20px 0;
+}
+.context{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    line-height: 32px;
+    width: 65%;
+    position: absolute;
+    color: #D0D6F9;
+}
+.bar{
+    margin: 145PX 0 0 149px;
+    position: absolute;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 17.44%);
+    display: inline-block;
+    margin: 40px 0 0 24px;
+}
+.circle::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.circle:hover::after{
+    background-color: rgb(255, 255, 255, 50.01%);
+}
+.current_crew{
+    background: white;
+}
